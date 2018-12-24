@@ -324,7 +324,7 @@ if (!points[message.author.id]) points[message.author.id] = {
         let r = (new Date).getTime() - spee[id];
         r = 15*1000 - r;
     }
-    if ( message.content == prefix + 'اسرع كتابة'){
+if (message.content.startsWith(prefix + "اسرع كتابة")) {
        
         try{
 }catch(e){
@@ -437,7 +437,7 @@ client.on('message', message => {
           let r = (new Date).getTime() - spee[id];
           r = 15*1000 - r;
       }
-      if (message.content == prefix "عواصم") {
+if (message.content.startsWith(prefix + "عواصم")) {
          
           try{
   }catch(e){
