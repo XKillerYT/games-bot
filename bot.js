@@ -1,7 +1,8 @@
 const Discord = require('discord.js');
 const fs = require('fs');
 const client = new Discord.Client();
- 
+const prefix = "#"
+
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
 });
@@ -323,7 +324,7 @@ if (!points[message.author.id]) points[message.author.id] = {
         let r = (new Date).getTime() - spee[id];
         r = 15*1000 - r;
     }
-    if ( message.content == prefix+'اسرع كتابة'){
+    if ( message.content == prefix + 'اسرع كتابة'){
        
         try{
 }catch(e){
@@ -497,7 +498,7 @@ client.on('message', message => {
 
 ]
 client.on('message', message => {
-  var prefix = "#"
+  
   if (message.author.bot) return;
 if (message.content.startsWith(prefix + "cd")) {
 if(!message.channel.guild) return message.reply('** This command only for servers **');
@@ -529,7 +530,7 @@ message.react("??")
 });
 
 client.on('message' , message => {
-  var prefix = "-";
+  ;
   if(message.author.bot) return;
  
   if(message.content.startsWith(prefix + "xo")) {
