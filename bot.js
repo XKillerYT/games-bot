@@ -16,7 +16,7 @@ client.on('ready', () => {
       console.log(`ON ${client.guilds.size} Servers '     Script By : Diamond Codes ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(argresult, "https://www.twitch.tv/idk");//حقوق دايموند كودز
+    client.user.setGame(`# العاب بوت ,`,"http://twitch.tv/xkilleryt")//حقوق دايموند كودز
 client.user.setStatus("online")
  
 });
