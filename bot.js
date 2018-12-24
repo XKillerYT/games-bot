@@ -703,7 +703,7 @@ const Za7f = [
     }
 });
 
-const Za7f = [
+const eiqab = [
     "**صورة وجهك او رجلك او خشمك او يدك**.",
     "**اصدر اي صوت يطلبه منك الاعبين**.",
     "**سكر خشمك و قول كلمة من اختيار الاعبين الي معك**.",
@@ -765,7 +765,7 @@ const Za7f = [
   .setColor('RANDOM')
    .setThumbnail(message.author.avatarURL) 
  .addField('Plus Bot' ,
-  `${Za7f[Math.floor(Math.random() * Za7f.length)]}`)
+  `${eiqab[Math.floor(Math.random() * eiqab.length)]}`)
   message.channel.sendEmbed(embed);
   console.log('[38ab] Send By: ' + message.author.username)
     }
