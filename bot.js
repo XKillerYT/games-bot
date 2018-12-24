@@ -315,7 +315,7 @@ const speed = [
     }
 ];
 client.on('message', message => {
-if (!points[message.author.id]) points[message.author.id] = {
+
     points: 0,
   };
   if(!message.guild) return;
@@ -428,7 +428,7 @@ const awasem = [
 
 ];
 client.on('message', message => {
-  if (!points[message.author.id]) points[message.author.id] = {
+  
       points: 0,
     };
     if(!message.guild) return;
