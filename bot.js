@@ -622,7 +622,7 @@ const secre = [
  
  
  client.on('message', message => {
-   if (message.content.startsWith("?لو خيروك")) {
+   if (message.content.startsWith("#لو خيروك")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
@@ -802,7 +802,7 @@ const cuttweet = [
 ]
  
  client.on('message', message => {
-   if (message.content.startsWith("?كت تويت")) {
+   if (message.content.startsWith("#كت تويت")) {
                 if(!message.channel.guild) return message.reply('** This command only for servers**');
   var embed = new Discord.RichEmbed()
   .setColor('RANDOM')
@@ -876,7 +876,7 @@ const Sra7a = [
     'صراحه  |  ما هي أمنياتك المُستقبلية؟‏',
 ]
   client.on('message', message => {
-if (message.content.startsWith('?صراحة')) {
+if (message.content.startsWith('#صراحة')) {
     if(!message.channel.guild) return message.reply('** This command only for servers **');
  var client= new Discord.RichEmbed()
  .setTitle("لعبة صراحة ..")
